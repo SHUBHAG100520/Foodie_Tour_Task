@@ -28,15 +28,15 @@ Leverage the Julep AI orchestration framework and LLM capabilities to:
 
 ## 🧠 How It Works
 
-### 🧩 Architecture Overview
+## 🧰 Architecture Diagram
 
 ```mermaid
 graph TD
-    A[User Input (City, Time of Day)] --> B[Agent & Task Setup]
-    B --> C[Weather Tool Integration via OpenWeatherMap]
-    C --> D[Prompt LLM with Weather Data]
-    D --> E[Receive Dish Recommendations]
-    E --> F[Display to User]
+    A[User Input] --> B(Weather Check)
+    B --> C{Weather Analysis}
+    C -->|Good Weather| D[Outdoor Recommendations]
+    C -->|Bad Weather| E[Indoor Recommendations]
+    D --> F[Display Results]
 ```
 
 ---
