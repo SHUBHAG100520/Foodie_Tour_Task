@@ -25,7 +25,7 @@ Use Julep's orchestration and LLM capabilities to:
 
 ## 🧠 How It Works
 
-### Architecture Overview
+### 🧩 Architecture Overview
 
 ```mermaid
 graph TD
@@ -35,6 +35,7 @@ graph TD
     D --> E[Receive Dish Recommendations]
     E --> F[Display to User]
 ```
+
 
 ---
 
